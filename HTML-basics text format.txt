@@ -7,137 +7,374 @@ tutorial for help if you need it.
 HTML document structure 
 1. 
 It is standard to wrap the HTML document in specific tags to show that it is a HTML document. Write the tag that is used for this purpose. 
+Answer:
+<html></html>
+
 
 2. 
 In HTML there is a tag which has inside it all of the metadata about the site, like links to CSS and site title that is meant only for the browser. There is also a tag that contains all of the content that is shown to the sites visitors by the browser. Write the tag that is used for metadata and the tag that is used for the visible content. 
 
+Answer:
+
+<Head>
+
+     </head>
+
 3. 
-Write the basic structure of a html document with utf-8 defined as the character set and with title “My first site”. Remember the correct indentation. 
+Write the basic structure of a html document with utf-8 defined as the character set and with title ï¿½My first siteï¿½. Remember the correct indentation. 
+ Answer:
+    Html document structure
+
+ <html>
+   <head>
+      <meta charset="utf-8">
+         <title>My first site</title>
+  </head>
+        <body>
+        </body>
+</html>
 
 4. 
-Sometimes it’s nice to have comments in your code that are visible in the code editor. Write the syntax for HTML comment with the text “test comment”. 
+Sometimes itÂ´s nice to have comments in your code that are visible in the code editor. Write the syntax for HTML comment with the text ï¿½test commentï¿½. 
+Answer:
+    Make this type of code to make a comment
+
+  <!--
+    test comment
+  -->
+
 
 5. 
 The titles in our websites come in all different styles and sizes. Write the tags for level 1, 3, and 6 headings. 
+    
+Answer:
+    (h1-6)= Different size on the the element
+
+    <h1></h1> 
+
+    <h3></h3>
+
+    <h6></h6>
 
 6. 
-Websites also have a lot of text in different places so it’s important to know which tags to use for text in HTML. Write the tag that is used for text paragraphs. 
+Websites also have a lot of text in different places so it`s important to know which tags to use for text in HTML. Write the tag that is used for text paragraphs. 
+
+Answer:
+p = paragraphs
+   <p></p>
+
 
 7. 
-Lists are an usefull way to display information on your website. Write the structure for ordered and unordered lists with “First item” and “Second item”. 
+Lists are an usefull way to display information on your website. Write the structure for ordered and unordered lists with ï¿½First itemï¿½ and ï¿½Second itemï¿½. 
+    Answer:  
+    There is different type of list se the exampel below.
+
+    First one is {ol} this element helps you to make an number list.
+    example:
+    <ol>
+       <li>First</li>
+       <li>Second</li>
+       <li>Third</li>
+    </ol>
+
+
+    The second type of element to do list is {ul} this helps you to do unordered list
+    example:
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
 
 8. 
-Lists can be also very versitile and can be used in many different ways. Write an ordered list with “First item”, “Second item” and “Third item” and an unordered list indented after “Second item” with two “Indented item” items. 
+Lists can be also very versitile and can be used in many different ways. Write an ordered list with ï¿½First itemï¿½, ï¿½Second itemï¿½ and ï¿½Third itemï¿½ and an unordered list indented after ï¿½Second itemï¿½ with two ï¿½Indented itemï¿½ items. 
+    Answer:
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+            <ul>
+                <li>indented item</li>
+                <li>indented item</li>
+            </ul>
+        <li>Third item</li>
+    </ol>   
+
 
 9. 
-Links are also important part of the web desing. You can use them to navigate your own website and also connect your website to other websites. Write a link that opens a new tab and leads into Google.com with the text “Link to Google”. 
+Links are also important part of the web desing. You can use them to navigate your own website and also connect your website to other websites. Write a link that opens a new tab and leads into Google.com with the text ï¿½Link to Googleï¿½. 
+     Answer:
+     <a href="https://www.google.com" target="_blank">Link to Gooegle </a>
+
 
 
 
 Images and videos 
+
 10. 
-Most webpages have images so it’s good to know how to add images in HTML. Write the tag that is used to add images. If you want to try this out in a HTML document you can use “https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/1200px­Flower_poster_2.jpg” (Picture of some flowers) for example, as the image source. You can scale the picture with width and height (in pixels). 
+Most webpages have images so it`s good to know how to add images in HTML. Write the tag that is used to add images. If you want to try this out in a HTML document you can use ï¿½https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/1200pxï¿½Flower_poster_2.jpgï¿½ (Picture of some flowers) for example, as the image source. You can scale the picture with width and height (in pixels). 
+    Answer: This is the way to write and put a image to the html element img
+    <img src="https://media.istockphoto.com/id/147557453/sv/foto/sports-car.jpg?s=2048x2048&w=is&k=20&c=ZD4NorRzEUjnNvSEoYn1wetwIs9-w0teyeLtmvTU4i0=" alt="Picture of a car">
+
+
 
 11. 
 Videos have become more prevelent on the web and many websites also have some video content. Write the tag to add embedded videos to a website. 
+    Answer:
+    <video src="https://pixabay.com/sv/videos/hav-vinka-strand-bl%C3%A5-natur-24216/">
+    </video>
+
+
 
 12. 
 Tables are another useful way to display information for your users. Write the tag that encloses the whole table, the tag that encloses a row, the tag for headers and the tag for table cell. 
+    <table></table> = Means Table and this is useful to shoy information to users.
+    <tr></tr> = Table row
+    <th></th> = Table head
+    <td></td> = Table data
+
 
 13. 
-Let’s first create a simple table. Write a table with two headers: “Title 1” and “Title 2”, first row: “Item 1” and “Item 2”, second row: “Item 3” and “Item 4”. 
+Let`s first create a simple table. Write a table with two headers: ï¿½Title 1ï¿½ and ï¿½Title 2ï¿½, first row: ï¿½Item 1ï¿½ and ï¿½Item 2ï¿½, second row: ï¿½Item 3ï¿½ and ï¿½Item 4ï¿½. 
+    Answer:
+    <table>
+    <tr>
+        <th>Title 1</th>
+        <th>Title 2</th>
+    </tr>
+    <tr>
+        <td>Item 1</td>
+        <td>Item 2</td>
+    </tr>
+    <tr>
+        <td>Item 3</td>
+        <td>Item 4</td>
+    </tr>
+</table>
 
 
-
-14. Then we can try to create more complicated table to see how to use different features of tables. Recreate above table. Hint: You change how many rows or columns a cell spans by adding rowspan or colspan to th or td tag. You can add borders by adding “style=‘border: 1px solid black; border-collapse: collapse;’” to the table tag and “style=‘border: 1px solid black;’ ” to th and td tags. 
+14. Then we can try to create more complicated table to see how to use different features of tables. Recreate above table. Hint: You change how many rows or columns a cell spans by adding rowspan or colspan to th or td tag. You can add borders by adding ï¿½style=ï¿½border: 1px solid black; border-collapse: collapse;ï¿½ï¿½ to the table tag and ï¿½style=ï¿½border: 1px solid black;ï¿½ ï¿½ to th and td tags. 
 This table is not the best way to display this information, because it might be confusing for anyone using a screen reader, but we will come back to these kinds of issues when we talk more about accessibility of websites. 
 Forms are important part of web development. They give you a way to interact with user data, but also opens your site to security problems that you have to take into account. Right now we will focus on how to create a basic form that user can use to input some data. 
 In these tasks you can use this web 
 form 
 tutorial as help if you need it. 
-15. 
-Let’s start with the basic tags for web forms. Write the tag that encloses the form, the tag for input label and tag for the input. 
+    Answer:
 
+    <table style="border: 1px solid black; border-collapse: collapse;">
+    <caption>Items Sold August 2016</caption>
+    <tr>
+    <th style="border: 1px solid black;" rowspan="2" colspan="2"></th>
+    <th style="border: 1px solid black;" colspan="3">Clothes</th>
+    <th style="border: 1px solid black;" colspan="2">Accessories</th>
+    </tr>
+    <tr>
+    <td style="border: 1px solid black;">Trousers</td>
+    <td style="border: 1px solid black;">Skirts</td>
+    <td style="border: 1px solid black;">Dresses</td>
+    <td style="border: 1px solid black;">Bracelets</td>
+    <td style="border: 1px solid black;">Rings</td>
+    </tr>
+    <tr>
+    <th style="border: 1px solid black;" rowspan="3">Belgium</th>
+    <td style="border: 1px solid black;">Antwerp</td>
+    <td style="border: 1px solid black;">56</td>
+    <td style="border: 1px solid black;">22</td>
+    <td style="border: 1px solid black;">43</td>
+    <td style="border: 1px solid black;">72</td>
+    <td style="border: 1px solid black;">23</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">Gent</td>
+        <td style="border: 1px solid black;">46</td>
+        <td style="border: 1px solid black;">18</td>
+        <td style="border: 1px solid black;">50</td>
+        <td style="border: 1px solid black;">61</td>
+        <td style="border: 1px solid black;">15</td>
+        </tr>
+        <tr>
+        <td style="border: 1px solid black;">Brussels</td>
+        <td style="border: 1px solid black;">51</td>
+        <td style="border: 1px solid black;">27</td>
+        <td style="border: 1px solid black;">38</td>
+        <td style="border: 1px solid black;">69</td>
+        <td style="border: 1px solid black;">28</td>
+        </tr>
+        <tr>
+        <th style="border: 1px solid black;" rowspan="2">The Netherlands</th>
+        <td style="border: 1px solid black;">Amsterdam</td>
+        <td style="border: 1px solid black;">89</td>
+        <td style="border: 1px solid black;">34</td>
+        <td style="border: 1px solid black;">69</td>
+        <td style="border: 1px solid black;">85</td>
+        <td style="border: 1px solid black;">38</td>
+        </tr>
+        <tr>
+        <td style="border: 1px solid black;">Utrecht</td>
+        <td style="border: 1px solid black;">80</td>
+        <td style="border: 1px solid black;">12</td>
+        <td style="border: 1px solid black;">43</td>
+        <td style="border: 1px solid black;">36</td>
+        <td style="border: 1px solid black;">19</td>
+        </tr>
+        </table>
+15. 
+Let`s start with the basic tags for web forms. Write the tag that encloses the form, the tag for input label and tag for the input. 
+    Answer:
+        <form></form>
+        <label></label>
+            <input>
 16. 
 HTML gives you tools to tell what kind of information should go into different inputs. Write tag for input that is meant for email type input. 
-
+    Answer:
+    <input type="email">
 17. 
-Now we can create a basic form. Write a form with labels and input boxes for “Name:”, “Email:” and “Phone:”. Hint: You can use <br> as line break. 
+Now we can create a basic form. Write a form with labels and input boxes for ï¿½Name:ï¿½, ï¿½Email:ï¿½ and ï¿½Phone:ï¿½. Hint: You can use <br> as line break. 
+    Answer:
+    
+<form>
+    <label>Name:</label>
+    <input type="text">
+    <br>
+    <label>Email:</label>
+    <input type="email">
+    <br>
+    <label>Phone:</label>
+    <input type="tel">
+ </form>
+
 
 18. 
 The form needs also submit functionality so that user can submit their information. Add a basic submit button to the form you just made. 
-
+    Answer:
+    
+<form>
+    <label>Name:</label>
+    <input type="text">
+    <br>
+    <label>Email:</label>
+    <input type="email">
+    <br>
+    <label>Phone:</label>
+    <input type="tel">
+    <button type="submit">Submit</button>
+ </form>
 19. 
-Sometimes you might want to give user ability to write longer texts in the input. Add a multiline text area with the label “Message:” under the “Phone”. 
-
+Sometimes you might want to give user ability to write longer texts in the input. Add a multiline text area with the label ï¿½Message:ï¿½ under the ï¿½Phoneï¿½. 
+    Answer:
+    <form>
+       <label>Name:</label>
+        <input type="text">
+      <br>
+       <label>Email:</label>
+       <input type="email">
+      <br>
+       <label>Phone:</label>
+       <input type="tel">
+      <br>
+       <label>Message:</label>
+       <textarea></textarea>
+      <br>
+      <br>
+       <button type="submit">Submit</button>
+    </form>
 20. 
-Check through the HTML5 
-input 
-types 
+Check through the HTML5 input types 
 so that you know how versitile the input tag can be. 
 
 21. 
 Create a HTML document for a website: 
 
-
-Head: 
-• 
-Character set should be utf-8 
-
-• 
-Title should be “Jack and Jill’s Kennel” 
-
-
-Body: 
-• 
-Level one heading: “Jack and Jill’s Kennel” 
-
-• Image: “https://dogexpress.in/wp-content/uploads/2016/04/Happy-Dog-Parents1­660x330.jpg” as image source 
-
-• 
-Text: “Welcome to the Jack and Jill’s kennel website, where we offer the best labrador puppies in the world!” 
-
-• 
-Level two heading: “Available puppies” 
-
-• 
-Text: “Male puppies” 
-
-• 
-Unordered list with elements: “Bud, 8 weeks”, “Chuck, 8 weeks”, “Colby, 8 weeks” and “Fido, 8 weeks” 
-
-• 
-Text: “Female puppies:” 
-
-• 
-Unordered list with elements: “Bindi, 8 weeks”, “Bubbles, 8 weeks”, “Cotton, 8 weeks”, “Harmony, 8 weeks” and “Tootsie, 8 weeks” 
-
-• 
-Table: 
-
-– 
-Title row: first cell is empty, followed by 9 cells with the dog names 
-
-– 
-First row: Availability status, Available, Available, Available, Available, Avail­able, Available, Available, Available, Available 
-
-– 
-Second row: Personalities, Rowdy, Playful, Sleepy, Little bit bossy, Full of energy, Likes to play, Rowdy and playful, Stubborn, Playful 
-
-
-
-• 
-Level two heading: “Contact us!” 
-
-• 
-Text: “Phone: +123456789”, number part as a link with href=“#” 
-
-• 
-Text: “Email: JJKennel@Kennel.com”, email part as a link with href=“#” 
-
-• 
-Contact form: Name, Email, Phone, Message and Submit button 
-
-
-
-
+    Answer:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jack and Jillâ€™s Kennel</title>
+</head>
+<body>
+    <h1>Jack and Jillâ€™s Kennel</h1>
+    <img src="https://dogexpress.in/wp-content/uploads/2016/04/Happy-Dog-Parents1-660x330.jpg" alt="Kennel Image">
+    <p>Welcome to the Jack and Jillâ€™s kennel website, where we offer the best Labrador puppies in the world!</p>
+    
+    <h2>Available Puppies</h2>
+    
+    <p>Male puppies:</p>
+    <ul>
+        <li>Bud, 8 weeks</li>
+        <li>Chuck, 8 weeks</li>
+        <li>Colby, 8 weeks</li>
+        <li>Fido, 8 weeks</li>
+    </ul>
+    
+    <p>Female puppies:</p>
+    <ul>
+        <li>Bindi, 8 weeks</li>
+        <li>Bubbles, 8 weeks</li>
+        <li>Cotton, 8 weeks</li>
+        <li>Harmony, 8 weeks</li>
+        <li>Tootsie, 8 weeks</li>
+    </ul>
+    
+    <table>
+        <tr>
+            <th></th>
+            <th>Dog 1</th>
+            <th>Dog 2</th>
+            <th>Dog 3</th>
+            <th>Dog 4</th>
+            <th>Dog 5</th>
+            <th>Dog 6</th>
+            <th>Dog 7</th>
+            <th>Dog 8</th>
+            <th>Dog 9</th>
+        </tr>
+        <tr>
+            <td>Availability status</td>
+            <td>Available</td>
+            <td>Available</td>
+            <td>Available</td>
+            <td>Available</td>
+            <td>Available</td>
+            <td>Available</td>
+            <td>Available</td>
+            <td>Available</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Personalities</td>
+            <td>Rowdy</td>
+            <td>Playful</td>
+            <td>Sleepy</td>
+            <td>Little bit bossy</td>
+            <td>Full of energy</td>
+            <td>Likes to play</td>
+            <td>Rowdy and playful</td>
+            <td>Stubborn</td>
+            <td>Playful</td>
+        </tr>
+    </table>
+    
+    <h2>Contact Us!</h2>
+    
+    <p>Phone: <a href="#">+123456789</a></p>
+    <p>Email: <a href="mailto:JJKennel@Kennel.com">JJKennel@Kennel.com</a></p>
+    
+    <h2>Contact Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
